@@ -1,0 +1,39 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1f2b"/>
+      <stop offset="55%" stop-color="#12303f"/>
+      <stop offset="100%" stop-color="#1a4a5c"/>
+    </linearGradient>
+    <radialGradient id="haze" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#8fc7d6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8fc7d6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3f7c8f" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3f7c8f" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#haze)"/>
+
+  <circle cx="150" cy="70" r="120" fill="#ffffff" opacity="0.03"/>
+  <circle cx="1080" cy="90" r="160" fill="#a8dce8" opacity="0.04"/>
+  <circle cx="600" cy="40" r="90" fill="#ffffff" opacity="0.02"/>
+
+  <path d="M0,300 Q150,280 300,300 T600,300 T900,300 T1200,300 L1200,360 L0,360 Z" fill="url(#wave1)"/>
+  <path d="M0,320 Q200,305 400,320 T800,320 T1200,320 L1200,360 L0,360 Z" fill="#8fc7d6" opacity="0.08"/>
+
+  <line x1="80" y1="60" x2="260" y2="60" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+  <line x1="940" y1="55" x2="1120" y2="55" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+
+  <text x="600" y="165" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="60.0" fill="#ffffff" font-weight="600">
+    <tspan x="600" dy="0">Haze Seas Script</tspan>
+  </text>
+
+  <text x="600" y="222" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Lightweight validator for Haze Seas Script users — single binary, built-in checks,</tspan>
+    <tspan x="600" dy="30">no dependencies to install.</tspan>
+  </text>
+</svg>
